@@ -2,14 +2,14 @@
   "title": "Hello World Scenario",
   "description": "Your First Scenario",
   "difficulty": "beginner",
-  "time": "2 minutes",
+  "time": "5 minutes",
   "details": {
     "steps": [{
       "title": "Step 1 - Run Command",
       "text": "step1.md"
     },
     {
-      "title": "Step 2 - Another command"
+      "title": "Step 2 - Another command",
       "text": "step2.md"
     }],
     "intro": {

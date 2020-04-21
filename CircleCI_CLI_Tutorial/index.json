@@ -1,8 +1,8 @@
 {
   "title": "CircleCI CLI",
   "description": "",
-  "difficulty": "beginner",
-  "time": "5 minutes",
+  "difficulty": "Intermediate",
+  "time": "15-20 minutes",
   "details": {
     "steps": [{
       "title": "Step 1 - Run Command",

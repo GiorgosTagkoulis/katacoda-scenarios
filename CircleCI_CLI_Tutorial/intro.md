@@ -1,4 +1,3 @@
-## CircleCI CLI Tutorial
 
 CircleCi is a Continuous Integrations (CI) tool that empowers software engineering teams to be more productive through intelligent automation. 
 

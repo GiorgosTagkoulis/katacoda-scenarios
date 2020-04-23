@@ -1,10 +1,8 @@
-## Installing CircleCI
-
-#Download CircleCI
+#Download and Install CircleCI CLI
 
 `curl -fLSs https://circle.ci/cli | bash`{{execute}}
 
-Then to setup and update to the latest CircleCi run: 
+#Setup CircleCI CLI
 
 `circleci setup`{{execute}}
 

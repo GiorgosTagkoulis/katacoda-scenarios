@@ -15,9 +15,8 @@ jobs:
 ```
 In this case, we have done it for you when you pulled down the repository. You can check if the config.yml contains the correct information using.
 
-`cat config.yml`{{execute}}
-remember to go back to the foo_ci folder
-`cd ..`{{execute}}
+`cat .circleci/config.yml`{{execute}}
+
 
 ## Validate and test it works
 

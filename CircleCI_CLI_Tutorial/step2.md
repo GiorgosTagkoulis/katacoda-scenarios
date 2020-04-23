@@ -16,7 +16,7 @@ And last create config.yml
 
 Add the following content to the config.yml 
 
->version: 2.1 \n
+>version: 2.1
 >jobs:
 >  build:
 >    docker: 

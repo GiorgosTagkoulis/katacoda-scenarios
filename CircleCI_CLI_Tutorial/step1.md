@@ -1,4 +1,4 @@
-## Download and Install CircleCI CLI
+## Get git repository
 
 `curl -fLSs https://circle.ci/cli | bash`{{execute}}
 

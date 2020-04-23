@@ -36,7 +36,7 @@ echo ' - run: echo "Hello World"' >> config.yml`{{execute}}
 \tjobs: \n
 \t\tbuild: \n
 \t\t\tdocker: \n
-\t\t\t\t- image: circleci/node:4.8.2 # the primary container, where your job's commands are run \n
+\t\t\t\t- image: circleci/node:4.8.2 \n
 \t\t\tsteps: \n
-\t\t\t\t- checkout # check out the code in the project directory \n
-\t\t\t\t- run: echo "hello world" # run the echo command' >> config.yml`{{execute}}
+\t\t\t\t- checkout \n
+\t\t\t\t- run: echo "hello world"' > config.yml`{{execute}}

@@ -29,7 +29,7 @@ jobs:
 echo 'jobs:' >> config.yml
 echo '  build:' >> config.yml
 echo '     docker:' >> config.yml
-echo '      - image: circleci/ruby:2.4.2-jessie-node:' >> config.yml
+echo '      - image: circleci/ruby:2.4.2-jessie-node' >> config.yml
 echo '  steps:' >> config.yml
 echo '      - checkout' >> config.yml
 echo '      - run: echo "Hello World"' >> config.yml`{{execute}}

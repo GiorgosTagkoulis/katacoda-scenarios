@@ -25,14 +25,10 @@ jobs:
       - checkout # check out the code in the project directory
       - run: echo "hello world" # run the echo command
 ```
-`echo 'version: 2.1' >> config.yml
-echo 'jobs:' >> config.yml
-echo '  build:' >> config.yml
-echo '     docker:' >> config.yml
-echo '      - image: circleci/ruby:2.4.2-jessie-node' >> config.yml
-echo '  steps:' >> config.yml
-echo '      - checkout' >> config.yml
-echo '      - run: echo "Hello World"' >> config.yml`{{execute}}
+In this case, we have done it for you when you pulled down the repository. You can check if the config.yml contains the correct information using
+`cat config.yml`{{execute}}
+remember to go back to the foo_ci folder
+`cd ..`{{execute}}
 
 ## Validate and test it works
 

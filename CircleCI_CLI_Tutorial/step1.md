@@ -1,8 +1,8 @@
-##Download and Install CircleCI CLI
+## Download and Install CircleCI CLI
 
 `curl -fLSs https://circle.ci/cli | bash`{{execute}}
 
-##Setup CircleCI CLI
+## Setup CircleCI CLI
 
 `circleci setup`{{execute}}
 

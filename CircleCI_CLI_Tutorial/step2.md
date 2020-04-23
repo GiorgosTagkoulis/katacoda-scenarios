@@ -33,3 +33,10 @@ echo '        - image: circleci/ruby:2.4.2-jessie-node:' >> config.yml
 echo '    steps:' >> config.yml
 echo '        - checkout' >> config.yml
 echo '        - run: echo "Hello World"' >> config.yml`{{execute}}
+
+##Validate and test it works
+
+`circleci config validate`{{execute}}
+
+
+`circleci local execute`{{execute}}

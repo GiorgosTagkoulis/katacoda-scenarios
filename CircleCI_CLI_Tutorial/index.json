@@ -5,11 +5,15 @@
   "time": "15-20 minutes",
   "details": {
     "steps": [{
-      "title": "Step 1 - Setup CircleCI CLI",
+      "title": "Step 1 - Prepare git repository and directory",
       "text": "step1.md"
     },
     {
-      "title": "Step 2 - Setup and validate our first config",
+      "title": "Step 2 - Setup CircleCI CLI",
+      "text": "step2.md"
+    },
+    {
+      "title": "Step 3 - Setup and validate our first config",
       "text": "step2.md"
     }],
     "intro": {

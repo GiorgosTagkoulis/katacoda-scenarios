@@ -19,7 +19,6 @@ Add the following content to the config.yml
 >version: 2.1
 
 >jobs:
-
 >  build:
 
 >    docker: 

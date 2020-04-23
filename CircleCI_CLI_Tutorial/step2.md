@@ -15,20 +15,17 @@ And last create config.yml
 `touch config.yml`{{execute}}
 
 Add the following content to the config.yml 
+```
+version: 2.1
 
->version: 2.1
-
->jobs:
->  build:
-
->    docker: 
-
->      - image: circleci/node:4.8.2 # the primary container, where your job's commands are run
->    steps:
-
->      - checkout # check out the code in the project directory
->      - run: echo "hello world" # run the echo command
-
+jobs:
+  build:
+    docker: 
+      - image: circleci/node:4.8.2 # the primary container, where your job's commands are run
+   steps:
+      - checkout # check out the code in the project directory
+      - run: echo "hello world" # run the echo command
+```
 `echo 'version: 2.0' >> config.yml
 echo '  jobs:' >> config.yml
 echo '    build:' >> config.yml

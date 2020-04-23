@@ -5,7 +5,7 @@
   "time": "15-20 minutes",
   "details": {
     "steps": [{
-      "title": "Step 1 - Install CircleCI CLI",
+      "title": "Step 1 - Setup CircleCI CLI",
       "text": "step1.md"
     },
     {

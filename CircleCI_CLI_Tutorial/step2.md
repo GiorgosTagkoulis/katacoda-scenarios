@@ -25,18 +25,10 @@ jobs:
       - run: echo "hello world" # run the echo command
 
 `echo 'version: 2.0' >> config.yml
-echo 'jobs:' >> config.yml
-echo 'build:' >> config.yml
-echo 'docker:' >> config.yml
-echo '- image: circleci/ruby:2.4.2-jessie-node:' >> config.yml
-echo 'steps:' >> config.yml
-echo ' - run: echo "Hello World"' >> config.yml`{{execute}}
-
-`echo -e 'version: 2.1 \n
-\tjobs: \n
-\t\tbuild: \n
-\t\t\tdocker: \n
-\t\t\t\t- image: circleci/node:4.8.2 \n
-\t\t\tsteps: \n
-\t\t\t\t- checkout \n
-\t\t\t\t- run: echo "hello world"' > config.yml`{{execute}}
+echo '  jobs:' >> config.yml
+echo '    build:' >> config.yml
+echo '      docker:' >> config.yml
+echo '        - image: circleci/ruby:2.4.2-jessie-node:' >> config.yml
+echo '    steps:' >> config.yml
+echo '        - checkout' >> config.yml
+echo '        - run: echo "Hello World"' >> config.yml`{{execute}}

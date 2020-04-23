@@ -1,6 +1,6 @@
-This is your first step.
-
 ## Installing CircleCI
+
+#Download CircleCI
 
 `curl -fLSs https://circle.ci/cli | bash`{{execute}}
 

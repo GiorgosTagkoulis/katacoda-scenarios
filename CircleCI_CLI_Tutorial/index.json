@@ -19,6 +19,10 @@
     {
       "title": "Step 4 - Connect your repo to CircleCI",
       "text": "step4.md"
+    },
+    {
+      "title": "Step 5 - Creating a local container",
+      "text": "step5.md"
     }],
     "intro": {
       "text": "intro.md",

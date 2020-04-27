@@ -2,7 +2,7 @@
 
 Connecting repository to CircleCI is done on circleci.com
 
-![connectCircleCiToRepo](CircleCI_CLI_Tutorial/assets/connectCircleCI.PNG)
+![connectCircleCiToRepo](/CircleCI_CLI_Tutorial/assets/connectCircleCI.PNG)
 
 ## Push to github
 

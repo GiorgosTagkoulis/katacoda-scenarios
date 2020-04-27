@@ -10,7 +10,7 @@ Then start building
 
 ## Push to github
 
-Then you would push the file up to the github. With these commands
+Then you will push the file changes done up to the github with these commands
 
 ```
 git add .

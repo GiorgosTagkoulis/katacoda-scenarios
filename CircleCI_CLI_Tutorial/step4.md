@@ -1,26 +1,14 @@
-## Create Configuration
+## Connect repo to CicleCI
 
-We start of by creating the configuration file. Create a folder called .circleci.
-
-Add the following content to the config.yml 
-```
-version: 2.1
-jobs:
-  build:
-    docker: 
-      - image: circleci/node:4.8.2 # the primary container, where your job's commands are run
-   steps:
-      - checkout # check out the code in the project directory
-      - run: echo "hello world" # run the echo command
-```
-In this case, we have done it for you when you pulled down the repository. You can check if the config.yml contains the correct information using.
-
-`cat .circleci/config.yml`{{execute}}
+Connecting repository to CircleCI is done on circleci.com
 
 
-## Validate and test it works
+## Push to github
 
-`circleci config validate`{{execute}}
+Then you would push the file up to the github. With these commands
 
-
-`circleci local execute`{{execute}}
+"""
+git add .
+git commit -m "add config.yml file"
+git push
+"""

@@ -1,5 +1,7 @@
 ## Create Configuration
 
+If you use our github repo you already have the config.yml
+
 We start of by creating the configuration file. Create a folder called .circleci.
 
 Add the following content to the config.yml 

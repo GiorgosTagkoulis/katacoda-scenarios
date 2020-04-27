@@ -7,8 +7,8 @@ Connecting repository to CircleCI is done on circleci.com
 
 Then you would push the file up to the github. With these commands
 
-"""
+```
 git add .
 git commit -m "add config.yml file"
 git push
-"""
+```

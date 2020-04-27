@@ -2,7 +2,7 @@
 
 Connecting repository to CircleCI is done on circleci.com
 
-![connectCircleCiToRepo](https://github.com/GiorgosTagkoulis/katacoda-scenarios/blob/master/CircleCI_CLI_Tutorial/Image/connectCircleCI.PNG)
+![connectCircleCiToRepo](https://github.com/GiorgosTagkoulis/katacoda-scenarios/blob/master/CircleCI_CLI_Tutorial/assets/connectCircleCI.PNG)
 
 ## Push to github
 

@@ -1,4 +1,4 @@
-## Create Configuration
+## Create Configuration
 
 If you use our github repo you already have the config.yml
 

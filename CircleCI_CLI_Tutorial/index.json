@@ -15,6 +15,10 @@
     {
       "title": "Step 3 - Setup and validate our first config",
       "text": "step3.md"
+    },
+    {
+      "title": "Step 3 - Connect your repo to CircleCI",
+      "text": "step4.md"
     }],
     "intro": {
       "text": "intro.md",

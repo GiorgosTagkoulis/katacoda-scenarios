@@ -36,4 +36,5 @@ create your first commit.
 And finally 
 
 git remote add origin git@github.com:<YOUR_USERNAME>/foo_ci.git
+
 git push --set-upstream origin master

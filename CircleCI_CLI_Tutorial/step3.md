@@ -1,5 +1,7 @@
 ## Create Configuration
 
+The configuration contains the entire pipeline process, from build to deploy. It is written in the config.yml file and is placed at the root of your project in the .circleci folder. The config.yml is written with YAML syntax.
+
 If you use our github repo you already have the config.yml
 
 We start of by creating the configuration file. Create a folder called .circleci.

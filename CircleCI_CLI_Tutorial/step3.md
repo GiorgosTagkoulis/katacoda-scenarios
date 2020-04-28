@@ -4,6 +4,12 @@ The configuration contains the entire pipeline process, from build to deploy. It
 
 If you use our github repo you already have the config.yml
 
+You can check if the config.yml contains the correct information using.
+
+`cat .circleci/config.yml`{{execute}}
+
+If you dont have it follow these steps:
+
 We start of by creating the configuration file. Create a folder called .circleci.
 
 Add the following content to the config.yml 
@@ -17,9 +23,7 @@ jobs:
       - checkout # check out the code in the project directory
       - run: echo "hello world" # run the echo command
 ```
-In this case, we have done it for you when you pulled down the repository. You can check if the config.yml contains the correct information using.
 
-`cat .circleci/config.yml`{{execute}}
 
 
 ## Validate and test it works

@@ -18,9 +18,11 @@ First we ned to create a directory for our project. Run the command:
  
 As it was explained earlier, we need a `.circleci`{{action}} directory with a `config.yml`{{action}} file in it. For this, run the commands:
 
-`mkdir .circleci; touch .circleci/config.yml`{{execute}}
+`mkdir .circleci; cd .circleci: touch config.yml`{{execute}}
 
-In this step, we will initialize the config file, with a simple set up, which will have a workflow with only one job, that is to print "Hello-world". Click on the following snippet, to copy its content into the config.yml file.
+and open the file in the editor: config.yml{{open}}.
+
+Subsequently, we will initialize the config file, with a simple set up, which will have a workflow with only one job, that is to print "Hello-world". Click on the following snippet, to copy its content into the config.yml file.
 
 <pre class="file" data-filename="config.yml" data-target="replace">
   version: 2.1
@@ -36,31 +38,6 @@ In this step, we will initialize the config file, with a simple set up, which wi
 
 If you use our github repo you already have the config.yml
 
-You can check if the config.yml contains the correct information using.
+The `config.yml`{{action}} now contains the correct information. Check from the terminal by typing:
 
 `cat .circleci/config.yml`{{execute}}
-
-If you dont have it follow these steps:
-
-We start of by creating the configuration file. Create a folder called .circleci.
-
-Add the following content to the config.yml 
-```
-version: 2.1
-jobs:
-  build:
-    docker: 
-      - image: circleci/node:4.8.2 # the primary container, where your job's commands are run
-   steps:
-      - checkout # check out the code in the project directory
-      - run: echo "hello world" # run the echo command
-```
-
-
-
-## Validate and test it works
-
-`circleci config validate`{{execute}}
-
-
-`circleci local execute`{{execute}}

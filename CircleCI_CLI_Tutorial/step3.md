@@ -1,7 +1,26 @@
-## Create Configuration
+There are two ways to configure CircleCI to start building your project. The first one is through CircleCI's [web application](https://circleci.com/dashboard) (follow [these step](https://circleci.com/docs/2.0/getting-started/#section=getting-started) for guidance) where CirclecI automatically adds the necessary directories and files in your GitHub repository. Briefly explained, after you have logged in, from the left menu you need to choose `ADD PROJECTS`{{action}} and from the list you choose the project you want to set up and click on `Set Up Project`{{action}}, as it is shown below in the picture.
 
-The configuration contains the entire pipeline process, from build to deploy. It is written in the config.yml file and is placed at the root of your project in the .circleci folder. The config.yml is written with YAML syntax.
+![ConnectCircleCiToRepo](https://github.com/GiorgosTagkoulis/katacoda-scenarios/raw/master/CircleCI_CLI_Tutorial/assets/CircleCIConnectToRepo.png)
 
+Later on, you only need to click on `Start Building`{{action}}.
+
+![ConnectCircleCiToRepo](https://github.com/GiorgosTagkoulis/katacoda-scenarios/raw/master/CircleCI_CLI_Tutorial/assets/StartBuilding.PNG)
+
+The other way is manually by creating a `.circleci`{{action}} directory at the root of your project and adding a `config.yml`{{action}} file in it. The configuration for the entire pipeline process, from build to deploy, is written in the config.yml file which is written with YAML syntax.
+
+Since this tutorial is going to run the job locally, we will continue with the latter case.
+
+## Initialize project
+
+First we ned to create a directory for our project. Run the command:
+
+`mkdir hello-world && cd hello-world`{{execute}}
+ 
+As it was explained earlier, we need a `.circleci`{{action}} directory with a `config.yml`{{action}} file in it. Run the commands:
+
+`mkdir .circleci; cd .circleci; touch config.yaml`{{execute}}
+
+Then we need to 
 If you use our github repo you already have the config.yml
 
 You can check if the config.yml contains the correct information using.

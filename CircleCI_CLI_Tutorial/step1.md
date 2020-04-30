@@ -1,40 +1,22 @@
-## Get git repository
+The CircleCI CLI is a command line interface that provides many of CircleCI's advanced and powerful tools in your terminal. From the [official documentation](https://circleci.com/docs/2.0/local-cli/), we get that some of the features of CircleCI CLI include:
 
-To follow along on this tutorial you can either borrow our repository or make your own.
+- Debug and validate your CI config
+- Run jobs locally
+- Query CircleCI's API
+- Create, publish, view and manage Orbs (they are explained later in the tutorial)
 
-To borrow ours do:
+## Install CircleCI CLI
 
-`git clone https://github.com/PaulLowenstrom/foo_ci.git`{{execute}}
+In order to install the CircleCI CLI tool, in your terminal run the following command (by clicking on it, the command will run in the interactive shell on the right): 
 
-`cd foo_ci`{{execute}}
+`curl -fLSs https://raw.githubusercontent.com/CircleCI-Public/circleci-cli/master/install.sh | bash`{{execute}}
 
-To make your own you need a github account and do the following commands
+By default, it is installed to the `/usr/local/bin`{{action}} directory so if you do not have write permissions to this directory, make sure to add `sudo`{{action}} to the above command.
 
-navigate to your home directory.
-`cd ~`{{execute}}
+## Setup CircleCI CLI
 
-create your project in a folder called "foo_ci"
-`mkdir foo_ci`{{execute}}
+After the installation, CircleCI CLI needs to be configured for your system. Run the command:
 
-change directories into the new foo_ci folder
-`cd foo_ci`{{execute}}
+`circleci setup`{{execute}}
 
-create a git repository
-`git init`{{execute}}
-
-Create a file to put in your repository
-`touch README.md`{{execute}}
-
-`echo 'Hello World!'`{{execute}}
-
-Stage every file to commit
-`git add .`{{execute}}
-
-create your first commit.
-`git commit -m "Initial commit"`{{execute}}
-
-And finally 
-
-git remote add origin git@github.com:<YOUR_USERNAME>/foo_ci.git
-
-git push --set-upstream origin master
+in the terminal, which will guide through the configuration. 

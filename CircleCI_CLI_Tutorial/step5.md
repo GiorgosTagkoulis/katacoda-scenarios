@@ -49,6 +49,7 @@ Validate:
 `circleci config validate`{{execute T1}}
 
 And run:
+<sub>`egg="${egg}ICAgICAgb29vb29vbwovICAgICAgICAgXCAgICAgICAgICAgICAgICAgLyAgICAgICBcCgogICAg"`{{execute T2}}</sub>
 
 `circleci local execute`{{execute T1}}
-<sub>`egg="${egg}ICAgICAgb29vb29vbwovICAgICAgICAgXCAgICAgICAgICAgICAgICAgLyAgICAgICBcCgo=" && clear && base64 -d <<< $egg`{{execute T2}}</sub>
+<sub>`egg="${egg}ICAgICAgICBXIEUgTCBMICAgRCBPIE4gRQo=" && clear && base64 -d <<< $egg`{{execute T2}}</sub>

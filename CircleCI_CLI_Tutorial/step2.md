@@ -1,21 +1,19 @@
-## Download and Install CircleCI CLI
-
-`curl -fLSs https://circle.ci/cli | bash`{{execute}}
-
-## Setup CircleCI CLI
+After the installation, CircleCI CLI needs to be configured for your system. Run the command:
 
 `circleci setup`{{execute}}
 
-Normally you would enter the api token but we will only run localy so for now you can leave it empty and just press enter and keep the host the original https://circleci.com
+in the terminal, which will guide through the configuration. The first configuration is regarding the CircleCI API Token, while the second regarding the CircleCI Host. For the purposes of this tutorial it suffices to click the Enter key for both of them. However it is highly advised in your system to add the CircleCI API Token. 
 
-To generate a token log in on circleci website, go to user settings in the up right corner.
+In order to generate a token, first you need to [signup](https://circleci.com/signup/) in CircleCI, or [log in](https://circleci.com/vcs-authorize/) if you already have an account. After you have successfuly logged in, click in the up right corner your GitHub/BitBucket avatar and choose `User Setting`{{action}}. 
 
 ![ConnectCircleCiToRepo](https://github.com/GiorgosTagkoulis/katacoda-scenarios/raw/master/CircleCI_CLI_Tutorial/assets/UserSettings.PNG)
 
-Go to personal API tokens
+Later, choose `Personal API Tokens`{{action}} 
 
 ![ConnectCircleCiToRepo](https://github.com/GiorgosTagkoulis/katacoda-scenarios/raw/master/CircleCI_CLI_Tutorial/assets/PersonalToken.PNG)
 
 and create a new token
 
 ![ConnectCircleCiToRepo](https://github.com/GiorgosTagkoulis/katacoda-scenarios/raw/master/CircleCI_CLI_Tutorial/assets/CreateNewToken.PNG)
+
+Copy that token and paste it in your terminal when prompted for CircleCI API Token.

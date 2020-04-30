@@ -5,11 +5,11 @@
   "time": "15-20 minutes",
   "details": {
     "steps": [{
-      "title": "Step 1 - Install and Setup CircleCI CLI ",
+      "title": "Step 1 - Install the CircleCI CLI ",
       "text": "step1.md"
     },
     {
-      "title": "Step 2 - Setup CircleCI CLI",
+      "title": "Step 2 - Setup the CircleCI CLI",
       "text": "step2.md"
     },
     {

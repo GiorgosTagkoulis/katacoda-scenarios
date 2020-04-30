@@ -12,11 +12,3 @@ In order to install the CircleCI CLI tool, in your terminal run the following co
 `curl -fLSs https://raw.githubusercontent.com/CircleCI-Public/circleci-cli/master/install.sh | bash`{{execute}}
 
 By default, it is installed to the `/usr/local/bin`{{action}} directory so if you do not have write permissions to this directory, make sure to add `sudo`{{action}} to the above command.
-
-## Setup CircleCI CLI
-
-After the installation, CircleCI CLI needs to be configured for your system. Run the command:
-
-`circleci setup`{{execute}}
-
-in the terminal, which will guide through the configuration. 

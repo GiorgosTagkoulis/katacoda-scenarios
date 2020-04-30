@@ -18,7 +18,7 @@ First we ned to create a directory for our project. Run the command:
  
 As it was explained earlier, we need a `.circleci`{{action}} directory with a `config.yml`{{action}} file in it. For this, run the commands:
 
-`mkdir .circleci; cd .circleci: touch config.yml`{{execute}}
+`mkdir .circleci; touch .circleci/config.yml`{{execute}}
 
 and open the file in the editor: `config.yml`{{open}}.
 

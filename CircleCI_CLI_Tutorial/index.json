@@ -22,7 +22,7 @@
     },
     {
       "title": "Step 5 - Creating a local container",
-      "courseData": "init-step5.hs",
+      "courseData": "init-step5.sh",
       "text": "step5.md"
     }],
     "intro": {

@@ -4,6 +4,12 @@ For the demo project we have created, run the following command and make sure th
 
 `circleci config validate`{{execute}}
 
-## Run 
+## Run the jobs in the config file locally
+
+Now that we have proved that the config file is validated, we can finally run the CLI tool, by running the command:
 
 `circleci local execute`{{execute}}
+
+As you can see, the build is successful. However, if you have a closer look you will realise that in our config file there is no actual code or tests. The build had only one job that is to download the docker image from the [Pre-build CircleCI Docker images](https://circleci.com/docs/2.0/circleci-images/) where the jobs commands will run, initialize some environment variables and echo "Hello world". 
+
+Albeit a simple set up, it is believed that it provided you with some basic understanding about the CircleCI CLi tool. In the next steps, the focus will be in some coding examples.

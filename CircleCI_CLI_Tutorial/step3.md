@@ -18,7 +18,7 @@ First we ned to create a directory for our project. Run the command:
  
 As it was explained earlier, we need a `.circleci`{{action}} directory with a `config.yml`{{action}} file in it. For this, run the commands:
 
-`mkdir .circleci; cd .circleci; touch config.yaml`{{execute}}
+`mkdir .circleci; cd .circleci; touch config.yml`{{execute}}
 
 In this step, we will initialize the config file, with a simple set up, which will have a workflow with only one job, that is to print "Hello-world". Click on the following snippet, to copy its content into the config.yml file.
 

@@ -1,8 +1,8 @@
 {
   "title": "CircleCI CLI Tutorial",
   "description": "",
-  "difficulty": "Intermediate",
-  "time": "15-20 minutes",
+  "difficulty": "Beginner",
+  "time": "10-15 minutes",
   "details": {
     "steps": [{
       "title": "Step 1 - Install the CircleCI CLI ",

@@ -14,7 +14,6 @@
     },
     {
       "title": "Step 3 - Initialize your first CircleCi build",
-      "courseData": "init-hello-world.sh",
       "text": "step3.md"
     },
     {

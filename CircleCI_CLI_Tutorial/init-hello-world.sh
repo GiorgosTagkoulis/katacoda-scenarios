@@ -1,5 +1,5 @@
 #!/bin/bash
 
-mkdir hello-world;
-cd hello-world;
+mkdir hello-world
+cd hello-world
 

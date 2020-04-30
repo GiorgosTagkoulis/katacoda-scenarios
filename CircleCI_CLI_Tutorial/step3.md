@@ -19,14 +19,14 @@ First we ned to create a directory for our project. Run the command:
 Now we will create a `config.yml`{{action}} file, which later will be added to the project. Click on: `config.yml`{{open}}, to open the file in the editor, and later click on the "Copy to Editor" in the following snippet. 
 
 <pre class="file" data-filename="./hello-world/.circleci/config.yml" data-target="replace">
-  version: 2.1
-  jobs:
-    build:
-      docker: 
-        - image: circleci/node:4.8.2 # the primary container, where your job's commands are run
-     steps:
-        - checkout # check out the code in the project directory
-        - run: echo "hello world" # run the echo command
+version: 2.1
+jobs:
+  build:
+    docker: 
+      - image: circleci/node:4.8.2 # the primary container, where your job's commands are run
+   steps:
+      - checkout # check out the code in the project directory
+      - run: echo "hello world" # run the echo command
 </pre>
 
 This is a simple set up which will have a workflow with only one job, that is to print "Hello-world".

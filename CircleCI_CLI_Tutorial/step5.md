@@ -38,7 +38,7 @@ jobs: # a collection of steps
 
 Now navigate in the project directory, and create a `.circleci`{{action}} directory where we will put the config file.
 
-`cd Calculate;
+`cd Calculator;
 mkdir .circleci;
 mv ../config.yml .circleci`{{execute}}
 

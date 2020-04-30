@@ -14,15 +14,9 @@ Since this tutorial is going to run the job locally, we will continue with the l
 
 First we ned to create a directory for our project. Run the command:
 
-`mkdir hello-world && cd hello-world`{{execute}}
- 
-As it was explained earlier, we need a `.circleci`{{action}} directory with a `config.yml`{{action}} file in it. For this, run the commands:
+`mkdir hello-world`{{execute}}
 
-`mkdir .circleci; touch .circleci/config.yml`{{execute}}
-
-and open the file in the editor: `./hello-world/.circleci/config.yml`{{open}}.
-
-Subsequently, we will initialize the config file, with a simple set up, which will have a workflow with only one job, that is to print "Hello-world". Click on the following snippet, to copy its content into the config.yml file.
+Now we will create a `config.yml`{{action}} file, which later will be added to the project. Click on: `config.yml`{{open}}, to open the file in the editor, and later click on the "Copy to Editor" in the following snippet. 
 
 <pre class="file" data-filename="./hello-world/.circleci/config.yml" data-target="replace">
   version: 2.1
@@ -34,6 +28,12 @@ Subsequently, we will initialize the config file, with a simple set up, which wi
         - checkout # check out the code in the project directory
         - run: echo "hello world" # run the echo command
 </pre>
+
+This is a simple set up which will have a workflow with only one job, that is to print "Hello-world".
+
+As it was explained earlier, we need a `.circleci`{{action}} directory with a `config.yml`{{action}} file in it. For this, run the commands:
+
+`cd hello-world; mkdir .circleci; mv ../config.yml .circleci`{{execute}}
 
 
 If you use our github repo you already have the config.yml

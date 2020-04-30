@@ -3,11 +3,9 @@ In the previous steps, we had a simple project to test the functionality on the 
 
 First, clone the repo:
 
-`git clone git@github.com:GiorgosTagkoulis/Calculator.git`{{execute}}
+`git clone https://github.com/GiorgosTagkoulis/Calculator.git`{{execute}}
 
-and navigate in the project
+and navigate in the project directory
 
 `cd Calculator`{{execute}}
-
-
 

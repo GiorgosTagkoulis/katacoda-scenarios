@@ -5,8 +5,6 @@ The CircleCI CLI is a command line interface that provides many of CircleCI's ad
 - Query CircleCI's API
 - Create, publish, view and manage Orbs (they are explained later in the tutorial)
 
-## Install CircleCI CLI
-
 In order to install the CircleCI CLI tool, in your terminal run the following command (by clicking on it, the command will run in the interactive shell on the right): 
 
 `curl -fLSs https://raw.githubusercontent.com/CircleCI-Public/circleci-cli/master/install.sh | bash`{{execute}}

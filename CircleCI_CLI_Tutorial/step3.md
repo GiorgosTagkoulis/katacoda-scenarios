@@ -20,7 +20,7 @@ As it was explained earlier, we need a `.circleci`{{action}} directory with a `c
 
 `mkdir .circleci; cd .circleci: touch config.yml`{{execute}}
 
-and open the file in the editor: config.yml{{open}}.
+and open the file in the editor: `config.yml`{{open}}.
 
 Subsequently, we will initialize the config file, with a simple set up, which will have a workflow with only one job, that is to print "Hello-world". Click on the following snippet, to copy its content into the config.yml file.
 

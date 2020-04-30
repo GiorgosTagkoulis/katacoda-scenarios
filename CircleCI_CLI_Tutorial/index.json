@@ -17,7 +17,7 @@
       "text": "step3.md"
     },
     {
-      "title": "Step 4 - Connect your repo to CircleCI",
+      "title": "Step 4 - Validate and Run your build with CircleCI CLI",
       "text": "step4.md"
     },
     {

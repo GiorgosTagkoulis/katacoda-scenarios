@@ -1,4 +1,4 @@
-## Validate and test it works
+## Validate and Run the CLI
 
 `circleci config validate`{{execute}}
 

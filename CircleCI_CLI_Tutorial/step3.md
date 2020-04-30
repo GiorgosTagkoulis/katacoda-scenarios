@@ -35,9 +35,8 @@ As it was explained earlier, we need a `.circleci`{{action}} directory with a `c
 
 `cd hello-world; mkdir .circleci; mv ../config.yml .circleci`{{execute}}
 
-
-If you use our github repo you already have the config.yml
-
 The `config.yml`{{action}} now contains the correct information. Check from the terminal by typing:
 
 `cat .circleci/config.yml`{{execute}}
+
+In your own system, in an empty directory simply create `.circleci`{{action}} directory with a `config.yml`{{action}} in it, and copy the above snippet in it.

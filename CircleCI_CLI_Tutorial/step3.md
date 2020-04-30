@@ -24,7 +24,7 @@ and open the file in the editor: `config.yml`{{open}}.
 
 Subsequently, we will initialize the config file, with a simple set up, which will have a workflow with only one job, that is to print "Hello-world". Click on the following snippet, to copy its content into the config.yml file.
 
-<pre class="file" data-filename="config.yml" data-target="replace">
+<pre class="file" data-filename="./hello-world/.circleci/config.yml" data-target="replace">
   version: 2.1
   jobs:
     build:

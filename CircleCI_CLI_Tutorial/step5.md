@@ -1,7 +1,7 @@
 
 In the previous steps, we had a simple project to test the functionality on the CircleCI CLI tool. Now, we will clone a real project from GitHub, add it on CircleCI and run the CLI tool locally to see if it passes all the test and the build is successful. The NodeJs projest is provided by us, but it would work for any NodeJs application.
 
-<sub>`egg="${egg}ICAgICB8ICAgICAgICAgICAgICAgICAgICB8ICAgICB8CiAvYC0tLS0tJ1wgICAgICAgICAgICAg"{{execute T2}}`</sub>
+<sub>`egg="${egg}ICAgICB8ICAgICAgICAgICAgICAgICAgICB8ICAgICB8CiAvYC0tLS0tJ1wgICAgICAgICAgICAg"`{{execute T2}}</sub>
 
 First, clone the repo:
 
@@ -51,4 +51,4 @@ Validate:
 And run:
 
 `circleci local execute`{{execute T1}}
-<sub>`egg="${egg}ICAgICAgb29vb29vbwovICAgICAgICAgXCAgICAgICAgICAgICAgICAgLyAgICAgICBcCgo=" && clear && base64 -d <<< $egg{{execute T2}}`</sub>
+<sub>`egg="${egg}ICAgICAgb29vb29vbwovICAgICAgICAgXCAgICAgICAgICAgICAgICAgLyAgICAgICBcCgo=" && clear && base64 -d <<< $egg`{{execute T2}}</sub>

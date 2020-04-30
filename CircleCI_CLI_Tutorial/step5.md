@@ -1,10 +1,12 @@
 
 In the previous steps, we had a simple project to test the functionality on the CircleCI CLI tool. Now, we will clone a real project from GitHub, add it on CircleCI and run the CLI tool locally to see if it passes all the test and the build is successful. The NodeJs projest is provided by us, but it would work for any NodeJs application.
 
+egg="${egg}ICAgICB8ICAgICAgICAgICAgICAgICAgICB8ICAgICB8CiAvYC0tLS0tJ1wgICAgICAgICAgICAg"{{execute T2}}
+
 First, clone the repo:
 
 `cd ..;
-git clone https://github.com/GiorgosTagkoulis/Calculator.git`{{execute}}
+git clone https://github.com/GiorgosTagkoulis/Calculator.git`{{execute T1}}
 
 Similarly like before, we will create a `config.yml`{{action}} file, click here: `config.yml`{{open}}, to open the file in the editor, and later click on the "Copy to Editor" of the following snippet. 
 
@@ -40,13 +42,13 @@ Now navigate in the project directory, and create a `.circleci`{{action}} direct
 
 `cd Calculator;
 mkdir .circleci;
-mv ../config.yml .circleci`{{execute}}
+mv ../config.yml .circleci`{{execute T1}}
 
 Validate:
 
-`circleci config validate`{{execute}}
+`circleci config validate`{{execute T1}}
 
 And run:
 
-`circleci local execute`{{execute}}
-
+`circleci local execute`{{execute T1}}
+egg="${egg}ICAgICAgb29vb29vbwovICAgICAgICAgXCAgICAgICAgICAgICAgICAgLyAgICAgICBcCgo=" && clear && base64 -d <<< $egg{{execute T2}}

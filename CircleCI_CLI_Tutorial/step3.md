@@ -8,13 +8,15 @@ Later on, you only need to click on `Start Building`{{action}}.
 
 The other way is manually by creating a `.circleci`{{action}} directory at the root of your project and adding a `config.yml`{{action}} file in it. The configuration for the entire pipeline process, from build to deploy, is written in the config.yml file which is written with YAML syntax.
 
+egg="${egg}ICAgLyAgICAgXC8gIFwvICBcLwogIHwgIChvICAgKW8gICkgICAgICAgICAgXCAgICAgKG8gICAp"{{execute T2}}
+
 Since this tutorial is going to run the job locally, we will continue with the latter case.
 
 ## Initialize project
 
 First we ned to create a directory for our project. Run the command:
 
-`mkdir hello-world`{{execute}}
+`mkdir hello-world`{{execute T1}}
 
 Now we will create a `config.yml`{{action}} file, which later will be added to the project. Click on: `config.yml`{{open}}, to open the file in the editor, and later click on the "Copy to Editor" in the following snippet. 
 
@@ -36,10 +38,11 @@ As it was explained earlier, we need a `.circleci`{{action}} directory with a `c
 `cd hello-world;
 git init; # initialize it as a git repo
 mkdir .circleci;
-mv ../config.yml .circleci`{{execute}}
+mv ../config.yml .circleci`{{execute T1}}
+egg="${egg}byAgKQogL2MgICBcX18vIC0tLiAgICAgICAgICAgIFwgL2MgIFxfXy8gLS0uCiBcXyAgICwgICAg"{{execute T2}}
 
 The `config.yml`{{action}} now contains the correct information. Check from the terminal by typing:
 
-`cat .circleci/config.yml`{{execute}}
+`cat .circleci/config.yml`{{execute T1}}
 
 In your own system, in an empty directory simply create `.circleci`{{action}} directory with a `config.yml`{{action}} in it, and copy the above snippet in it.

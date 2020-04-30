@@ -33,7 +33,10 @@ This is a simple set up which will have a workflow with only one job, that is to
 
 As it was explained earlier, we need a `.circleci`{{action}} directory with a `config.yml`{{action}} file in it. For this, run the commands:
 
-`cd hello-world; mkdir .circleci; mv ../config.yml .circleci`{{execute}}
+`cd hello-world; \\
+ git init; # initialize it as a git repo \\
+ mkdir .circleci; \\
+ mv ../config.yml .circleci`{{execute}}
 
 The `config.yml`{{action}} now contains the correct information. Check from the terminal by typing:
 

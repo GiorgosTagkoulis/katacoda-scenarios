@@ -16,11 +16,24 @@ First we ned to create a directory for our project. Run the command:
 
 `mkdir hello-world && cd hello-world`{{execute}}
  
-As it was explained earlier, we need a `.circleci`{{action}} directory with a `config.yml`{{action}} file in it. Run the commands:
+As it was explained earlier, we need a `.circleci`{{action}} directory with a `config.yml`{{action}} file in it. For this, run the commands:
 
 `mkdir .circleci; cd .circleci; touch config.yaml`{{execute}}
 
-Then we need to 
+In this step, we will initialize the config file, with a simple set up, which will have a workflow with only one job, that is to print "Hello-world". Click on the following snippet, to copy its content into the config.yml file.
+
+<pre class="file" data-filename="~/hello-world/.circleci/config.yml" data-target="append">
+  version: 2.1
+  jobs:
+    build:
+      docker: 
+        - image: circleci/node:4.8.2 # the primary container, where your job's commands are run
+     steps:
+        - checkout # check out the code in the project directory
+        - run: echo "hello world" # run the echo command
+</pre>
+
+
 If you use our github repo you already have the config.yml
 
 You can check if the config.yml contains the correct information using.

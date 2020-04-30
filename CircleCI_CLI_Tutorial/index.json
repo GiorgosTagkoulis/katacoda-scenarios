@@ -22,7 +22,6 @@
     },
     {
       "title": "Step 5 - Run a NodeJs project",
-      "courseData": "init-step5.sh",
       "text": "step5.md"
     }],
     "intro": {

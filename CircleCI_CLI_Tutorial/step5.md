@@ -3,7 +3,8 @@ In the previous steps, we had a simple project to test the functionality on the 
 
 First, clone the repo:
 
-`git clone https://github.com/GiorgosTagkoulis/Calculator.git`{{execute}}
+`cd ..;
+git clone https://github.com/GiorgosTagkoulis/Calculator.git`{{execute}}
 
 Similarly like before, we will create a `config.yml`{{action}} file, click here: `config.yml`{{open}}, to open the file in the editor, and later click on the "Copy to Editor" of the following snippet. 
 

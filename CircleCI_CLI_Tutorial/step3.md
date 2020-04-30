@@ -18,7 +18,7 @@ First we ned to create a directory for our project. Run the command:
 
 Now we will create a `config.yml`{{action}} file, which later will be added to the project. Click on: `config.yml`{{open}}, to open the file in the editor, and later click on the "Copy to Editor" in the following snippet. 
 
-<pre class="file" data-filename="./hello-world/.circleci/config.yml" data-target="replace">
+<pre class="file" data-filename="config.yml" data-target="replace">
 version: 2.1
 jobs:
   build:

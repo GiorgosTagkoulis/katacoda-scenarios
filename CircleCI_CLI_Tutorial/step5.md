@@ -5,7 +5,47 @@ First, clone the repo:
 
 `git clone https://github.com/GiorgosTagkoulis/Calculator.git`{{execute}}
 
-and navigate in the project directory
+Similarly like before, we will create a `config.yml`{{action}} file, click here: `config.yml`{{open}}, to open the file in the editor, and later click on the "Copy to Editor" of the following snippet. 
 
-`cd Calculator`{{execute}}
+<pre class="file" data-filename="config.yml" data-target="replace">
+version: 2.1 # use CircleCI 2.1
+jobs: # a collection of steps
+  build: # runs not using Workflows must have a `build` job as entry point
+    working_directory: ~/mern-starter # directory where steps will run
+    docker: # run the steps with Docker
+      - image: circleci/node:10.16.3 # ...with this image as the primary container; this is where all `steps` will run
+      - image: mongo:4.2.0 # and this image as the secondary service container
+    steps: # a collection of executable commands
+      - checkout # special step to check out source code to working directory
+      - run:
+          name: update-npm
+          command: 'sudo npm install -g npm@latest'
+      - restore_cache: # special step to restore the dependency cache
+          # Read about caching dependencies: https://circleci.com/docs/2.0/caching/
+          key: dependency-cache-{{ checksum "package-lock.json" }}
+      - run:
+          name: install-npm-wee
+          command: npm install
+      - save_cache: # special step to save the dependency cache
+          key: dependency-cache-{{ checksum "package-lock.json" }}
+          paths:
+            - ./node_modules
+      - run: # run tests
+          name: test
+          command: npm test
+</pre>
+
+Now navigate in the project directory, and create a `.circleci`{{action}} directory where we will put the config file.
+
+`cd Calculate;
+mkdir .circleci;
+mv ../config.yml .circleci`{{execute}}
+
+Validate:
+
+`circleci config validate`{{execute}}
+
+And run:
+
+`circleci local execute`{{execute}}
 

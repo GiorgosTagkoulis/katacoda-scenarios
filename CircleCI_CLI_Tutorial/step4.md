@@ -20,4 +20,4 @@ In general the CLI tool uses Docker to pull down the requirements for the build 
 
 <sub>`egg="${egg}XyB8ICdcX19fX19fXykKICB8ICAgICAgXykgICAgICAgICAgICAgICAgIHx8ICAgICAgXykKICB8"`{{execute T2}}</sub>
 
-Albeit the set up in this step was rather simple, it is believed that it provided you with some basic understanding about the CircleCI CLi tool. In the next steps, the focus will be in some coding examples.
+Albeit the set up in this step was rather simple, it is believed that it provided you with some basic understanding about the CircleCI CLI tool. In the next steps, the focus will be in some coding examples.

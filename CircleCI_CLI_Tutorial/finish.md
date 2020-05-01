@@ -1,3 +1,3 @@
-You've completed your first Katacoda scenario!
+You 've completed the CircleCI CLI tutorial on how to install and set it up for a project!
 
-Congratulations!!
+Congratulations!! 

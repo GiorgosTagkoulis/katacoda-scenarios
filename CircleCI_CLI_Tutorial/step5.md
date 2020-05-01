@@ -29,7 +29,7 @@ jobs: # a collection of steps
           command: npm test
 </pre>
 
-The comments in the config.yml file are explanatory as to what each step is for. The process is again the same, as it pulls down a Docker image for the build and executes, checkouts the code to the default working directory, installs the project dependencies and run the tests.
+The comments in the config.yml file are explanatory as to what each step is for. The process is again the same, as it pulls down a Docker image for the build to execute, checkouts the code to the default working directory, installs the project dependencies and run the tests.
 
 Navigate in the project directory, and create a `.circleci`{{action}} directory where we will put the config file.
 
@@ -48,7 +48,7 @@ And run the CLI tool with:
 
 If you check in the editor, there is no `node_modules`{{action}} directory as it is the case when we install the NodeJS dependencies despite being one of the steps in the config file. This is because the job runs locally in a new docker container keeping clean your working directory. 
 
-Apart from NodeJs, you can run CircleCI CLI for other projects too. Pre-built [CircleCI Docker images](https://link) maintein several Docker images and include tools especially useful for CI/CD. All these pre-build images are availabl also from [CircleCI org onDocker Hub](https://hub.docker.com/search?q=circleci&type=image). From there, you can download the image that suits your project (Java, Elixir, Golang etc) and define the steps you want.
+Apart from NodeJs, you can run CircleCI CLI for other projects too. Pre-built [CircleCI Docker images](https://link) maintain several Docker images and include tools especially useful for CI/CD. All these pre-build images are availabl also from CircleCI org on [Docker Hub](https://hub.docker.com/search?q=circleci&type=image). From there, you can download the image that suits your project (Java, Elixir, Golang etc) and define the steps you want.
 
 ## Limitations of CLI tool
 

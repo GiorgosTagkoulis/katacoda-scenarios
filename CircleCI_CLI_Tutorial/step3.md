@@ -1,4 +1,6 @@
-There are two ways to configure CircleCI to start building your project. The first one is through CircleCI's [web application](https://circleci.com/dashboard) (follow [these step](https://circleci.com/docs/2.0/getting-started/#section=getting-started) for guidance) where CirclecI automatically adds the necessary directories and files in your GitHub repository. Briefly explained, after you have logged in, from the left menu you need to choose `ADD PROJECTS`{{action}} and from the list you choose the project you want to set up and click on `Set Up Project`{{action}}, as it is shown below in the picture.
+There are two ways to configure CircleCI to start building your project. The first one is through CircleCI's [web application](https://circleci.com/dashboard) (follow [these step](https://circleci.com/docs/2.0/getting-started/#section=getting-started) for guidance) where CirclecI automatically adds the necessary directories and files in your GitHub repository. 
+
+Briefly explained, after you have logged in, from the left menu you need to choose `ADD PROJECTS`{{action}} and from the list you choose the project you want to set up and click on `Set Up Project`{{action}}, as it is shown below in the picture.
 
 ![ConnectCircleCiToRepo](https://github.com/GiorgosTagkoulis/katacoda-scenarios/raw/master/CircleCI_CLI_Tutorial/assets/CircleCIConnectToRepo.png)
 
@@ -14,7 +16,7 @@ Since this tutorial is going to run the job locally, we will continue with the l
 
 ## Initialize project
 
-First we ned to create a directory for our project. Run the command:
+First we need to create a directory for our project. Run the command:
 
 `mkdir hello-world`{{execute T1}}
 
